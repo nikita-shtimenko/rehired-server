@@ -1,0 +1,11 @@
+app:
+  env: "dev"
+  name: "go-rehired-server"
+  version: "1.0.0"
+
+http:
+  port: "8080"
+
+database:
+  url: "postgresql://postgres:postgres@localhost:5430/rehired"
+  pool_max: 2
